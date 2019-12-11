@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "917579878202",
+    "firebase_url": "https://chatting-d3d32.firebaseio.com",
+    "project_id": "chatting-d3d32",
+    "storage_bucket": "chatting-d3d32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917579878202:android:6cded2d2d1733796470a03",
+        "android_client_info": {
+          "package_name": "com.example.chatting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917579878202-8eaish4jnaiunspgbkfaumngk6stdbf6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARbOmEYLhqDe1ReyXK7wsUFCoQdNURC10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917579878202-8eaish4jnaiunspgbkfaumngk6stdbf6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

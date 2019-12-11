@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView_chatFrommessage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <TextView
+        android:id="@+id/chat_from_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/rounded_edittext_reg_login"
+        android:maxWidth="240dp"
+        android:padding="16dp"
+        android:text="This is my message that will wrap into multiple lines and keep on going"
+        app:layout_constraintEnd_toStartOf="@+id/imageView_chatFrommessage"
+        app:layout_constraintTop_toTopOf="@+id/imageView_chatFrommessage" />
+
+</LinearLayout>
