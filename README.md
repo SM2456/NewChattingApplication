@@ -17,9 +17,9 @@ After logging into the application, the user is directed to the chat log page wh
 ### ChatLog Activity
 When the user clicks on one of the contacts in his contact, the chat log of the user with that contact opens up. Here, the user sends and receives messages from the selected contact. Whether the chat messages are sent to the user or by the user are determined from the from id and to id referred from the user-messages node of the database. The last message exchanged
 in this chat log are stored in the latest-messages node of the Firebase database node with the corresponding toId and fromId which are used to display the contact user profile along with the latest message exchanged with that user in the chat log.
-![](images/ChatLog.PNG)
+![](images/Chatlog.PNG)
 ### Application Flow
-Below is the application flow:
+Above is the application flow:
 ![](images/ApplicationFlow.PNG)
 
 ### Future Works
